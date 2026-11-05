@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="DocDen.svg" alt="DocDen Logo" width="130" height="130" style="border-radius: 24px;" />
+<img src="Assets/DocDen.svg" alt="DocDen Logo" width="130" height="130" style="border-radius: 24px;" />
 
 # DocDen
 
