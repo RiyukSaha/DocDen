@@ -26,6 +26,7 @@
 </p>
 
 <p align="center">
+  <a href="#-app-screenshots">Screenshots</a> •
   <a href="#-key-features">Features</a> •
   <a href="#-download-packages">Downloads</a> •
   <a href="#-security--privacy-architecture">Security</a> •
@@ -41,6 +42,21 @@
 **DocDen** is an ultra-secure, privacy-first personal document vault engineered for users who value absolute sovereignty over their data. Unlike conventional cloud document services that expose your private IDs, medical files, tax receipts, and contracts to remote data breaches, **DocDen operates strictly 100% offline**.
 
 All documents, tags, person associations, and metadata are encrypted directly on your device hardware using **AES-256 GCM**. Protected by an effortless **Biometric App Lock** (Fingerprint & Face Unlock) and wrapped in a stunning **Material 3 Expressive** interface, DocDen makes private document management smooth, reliable, and aesthetically delightful.
+
+---
+
+## 📱 App Screenshots
+
+<div align="center">
+  <img src="Assets/img1.jpg" alt="Screenshot 1" width="220" style="margin: 5px;" />
+  <img src="Assets/img2.jpg" alt="Screenshot 2" width="220" style="margin: 5px;" />
+  <img src="Assets/img3.jpg" alt="Screenshot 3" width="220" style="margin: 5px;" />
+  <img src="Assets/img4.jpg" alt="Screenshot 4" width="220" style="margin: 5px;" />
+  <img src="Assets/img5.jpg" alt="Screenshot 5" width="220" style="margin: 5px;" />
+  <img src="Assets/img6.jpg" alt="Screenshot 6" width="220" style="margin: 5px;" />
+  <img src="Assets/img7.jpg" alt="Screenshot 7" width="220" style="margin: 5px;" />
+  <img src="Assets/img8.jpg" alt="Screenshot 8" width="220" style="margin: 5px;" />
+</div>
 
 ---
 
@@ -79,55 +95,11 @@ All documents, tags, person associations, and metadata are encrypted directly on
 
 We provide pre-compiled, optimized APKs built via our automated CI/CD workflow. Check the [Releases](../../releases) tab to download.
 
-| Package | Recommended OS | Architecture | Highlights |
+| Package | Supported OS | Architecture | Highlights |
 | :--- | :--- | :--- | :--- |
-| **`DocDen-V1.0.0-universal.apk`** | **Android 10+ (API 29–37)** | Universal (`arm64-v8a`, `armeabi-v7a`, `x86_64`) | **Standard Recommended Release.** R8-optimized with page-aligned uncompressed native libraries. |
-| **`DocDen-V1.0.0-android7.apk`** | **Android 7.0 – 9.0 (API 24–28)** | Universal (Legacy) | **Legacy Variant.** Built with compressed native libraries for older package managers. |
+| **`DocDen-V1.0.0-Riyuk.apk`** | **Android 7.0+ (API 24–37)** | Universal (`arm64-v8a`, `armeabi-v7a`, `x86_64`) | **Standard Recommended Release.** R8-optimized with page-aligned uncompressed native libraries. |
 
 ---
 
 ## 🔐 Security & Privacy Architecture
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                       DocDen App                            │
-├──────────────────────────────┬──────────────────────────────┤
-│    Presentation (Compose M3) │  BiometricPrompt Gate        │
-├──────────────────────────────┴──────────────────────────────┤
-│              Domain & Local Repository Layer                │
-├──────────────────────────────┬──────────────────────────────┤
-│    Room DB (Encrypted Meta)  │  AES-256 GCM Cipher Stream   │
-├──────────────────────────────┴──────────────────────────────┤
-│           Android Hardware Sandbox & Keystore (TEE)         │
-│           - Zero Network Outbound Sockets                   │
-│           - 100% Offline Device Storage                     │
-└─────────────────────────────────────────────────────────────┘
-```
-
-1. **Zero Outbound Connections:** DocDen does not ping remote APIs, telemetry backends, or crash analytics.
-2. **Encrypted at Rest:** Files stored in the vault are chunked and encrypted with unique initialization vectors (IV).
-3. **No Account Required:** Start using the app immediately with zero sign-ups or email registrations.
-
----
-
-## 📜 Legal & Policies
-
-DocDen values full transparency, copyright protection, and respects the open-source community:
-
-- 🔒 **[Privacy Policy](PRIVACY_POLICY.md)** — Our strict zero-data collection guarantee and biometric privacy disclosures.
-- ⚖️ **[Terms and Conditions](TERMS_AND_CONDITIONS.md)** — Software usage agreement, user data responsibility, and liability limitations.
-- 📄 **[License](LICENSE)** — Proprietary & Confidential Software License (Copyright © 2024–2026 Riyuk Saha. All Rights Reserved).
-- 📝 **[Changelog](CHANGELOG.md)** — Chronological release history and new features.
-- 🤝 **Credits:** DocDen integrates visual architectures and UI frameworks adapted from the open-source LastWave-Native project. We deeply acknowledge the foundational work by Clash-Projects. Original Repository: [LastWave-native](https://github.com/Clash-Projects/LastWave-native).
-
----
-
-## 👤 Developer & Maintainer
-
-- **Developer:** Riyuk Saha
-- **Contact:** [RiyukSaha@gmail.com](mailto:RiyukSaha@gmail.com)
-- **Application ID:** `com.riyuk.docden`
-
-<div align="center">
-  <sub>Copyright © 2024–2026 Riyuk Saha. All Rights Reserved.</sub>
-</div>
