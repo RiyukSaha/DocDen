@@ -53,8 +53,9 @@ All documents, tags, person associations, and metadata are encrypted directly on
   <img src="Assets/img3.jpg" alt="Screenshot 3" width="220" style="margin: 5px;" />
   <img src="Assets/img4.jpg" alt="Screenshot 4" width="220" style="margin: 5px;" />
   <img src="Assets/img5.jpg" alt="Screenshot 5" width="220" style="margin: 5px;" />
-  <img src="Assets/img6.jpg" alt="Screenshot 6" width="220" style="margin: 5px;" />
-  <img src="Assets/img7.jpg" alt="Screenshot 7" width="220" style="margin: 5px;" />
+  <img src="Assets/img9.jpg" alt="Screenshot 6" width="220" style="margin: 5px;" />
+  <img src="Assets/img6.jpg" alt="Screenshot 7" width="220" style="margin: 5px;" />
+  <img src="Assets/img7.jpg" alt="Screenshot 8" width="220" style="margin: 5px;" />
   <img src="Assets/img8.jpg" alt="Screenshot 8" width="220" style="margin: 5px;" />
 </div>
 
